@@ -1,5 +1,9 @@
 # Telco Customer Churn Prediction Using Artificial Neural Networks (TensorFlow/Keras)
 This project successfully demonstrates the end-to-end development of a customer churn prediction system using an Artificial Neural Network (ANN).
+- Data Source: Telco Customer Churn Dataset - [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+  - Records: 7043 customer entries
+  - Features: Demographics, services used, billing, and contract information
+  - Target Variable: Churn (Yes/No)
 * Initiated the project with churn-rate EDA, uncovering key indicators such as tenure, monthly charges, and total charges distributions by churn status.
 * Executed robust data preprocessing using ColumnTransformer with binary encoding, MinMaxScaler, and OneHotEncoder to prepare clean, model-ready inputs.
 * Developed a deep learning model using TensorFlow/Keras ANN, featuring hidden layers and dropout to mitigate overfitting, trained on an 80/20 stratified split.
